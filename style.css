@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-self: center;
+}
+
+.container{
+    width: 300px;
+    height: 325px;
+    background-color: antiquewhite;
+    margin-top: 100px;
+    justify-items: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1{
+    padding: 5px;
+}
+
+p{
+    padding: 5px;
+}
+
+.number{
+    width: 100%;
+    border-radius: 4px;
+}
+
+select{
+    width: 100%;
+    border-radius: 4px;
+}
+
+button{
+    width:100px;
+    border-radius: 4px;
+    margin-top: 15px;
+}

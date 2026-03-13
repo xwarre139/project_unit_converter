@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  
+    <div class="container">
+
+        <h1>Unit converter</h1>
+        <p>Enter value:</p>
+        <input type="number" class="number" id="number" placeholder="Enter a number">
+
+        <p>From:</p>
+        <select id="from">
+            <option value="Meters">meters</option>
+            <option value="Centimeters">CM</option>
+        </select>
+
+        <p>To:</p>
+        <select id="to">
+            <option value="Meters">meters</option>
+            <option value="Centimeters">CM</option>
+        </select>
+
+        <div>
+
+            <button onclick="convert()">convert</button>
+            <h3 id="result"></h3>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
